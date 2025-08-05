@@ -1,221 +1,221 @@
-[<- 杩斿洖涓荤洰褰昡(../README_cn.md)
+[<- 返回主目录](../README_cn.md)
 
 <img src="simcom_logo.png" style="background-color:rgb(251, 252, 252); padding: 5px;" width="100">
 
-# TTS鎺ュ彛浣跨敤璇存槑V1.00
-鑺閫氭棤绾跨鎶(涓婃捣)鏈夐檺鍏徃  
-涓婃捣甯傞暱瀹佸尯涓磋櫣璺??289鍙??3鍙锋ゼ鑺閫氭婚儴澶фゼ  
-鐢佃瘽锛??86-21-31575100  
-鎶鏈敮鎸侀偖绠憋細support@simcom.com  
-瀹樼綉锛歸ww.simcom.com
+# TTS接口使用说明V1.00
+芯讯通无线科技(上海)有限公司  
+上海市长宁区临虹路289号3号楼芯讯通总部大楼  
+电话：86-21-31575100  
+技术支持邮箱：support@simcom.com  
+官网：www.simcom.com
 
-|鍚嶇О锛殀TTS鎺ュ彛浣跨敤璇存槑|
+|名称：|TTS接口使用说明|
 |---|---|
-|鐗堟湰锛殀V1.01|
-|绫诲埆锛殀搴旂敤鏂囨。|
-|鐘舵侊細|宸插彂甯億
+|版本：|V1.01|
+|类别：|应用文档|
+|状态：|已发布|
 
-# 鐗堟潈澹版槑
-鏈墜鍐屽寘鍚姱璁氭棤绾跨鎶锛堜笂娴凤級鏈夐檺鍏徃锛堢畝绉帮細鑺閫氾級鐨勬妧鏈俊鎭傞櫎闈炵粡鑺閫氫功闈㈣鍙紝浠讳綍鍗曚綅鍜屼釜浜轰笉寰楁搮鑷憳鎶勩佸鍒舵湰鎵嬪唽鍐呭鐨勯儴鍒嗘垨鍏ㄩ儴锛屽苟涓嶅緱浠ヤ换浣曞舰寮忎紶鎾紝杩濆弽鑰呭皢琚拷绌舵硶寰嬭矗浠汇傚鎶鏈俊鎭秹鍙婄殑涓撳埄銆佸疄鐢ㄦ柊鍨嬫垨鑰呭瑙傝璁＄瓑鐭ヨ瘑浜ф潈锛岃姱璁氫繚鐣欎竴鍒囨潈鍒┿傝姱璁氭湁鏉冨湪涓嶉氱煡鐨勬儏鍐典笅闅忔椂鏇存柊鏈墜鍐岀殑鍏蜂綋鍐呭銆??
+# 版权声明
+本手册包含芯讯通无线科技（上海）有限公司（简称：芯讯通）的技术信息。除非经芯讯通书面许可，任何单位和个人不得擅自摘抄、复制本手册内容的部分或全部，并不得以任何形式传播，违反者将被追究法律责任。对技术信息涉及的专利、实用新型或者外观设计等知识产权，芯讯通保留一切权利。芯讯通有权在不通知的情况下随时更新本手册的具体内容。
 
-鏈墜鍐岀増鏉冨睘浜庤姱璁氾紝浠讳綍浜烘湭缁忔垜鍏徃涔﹂潰鍚屾剰杩涜澶嶅埗銆佸紩鐢ㄦ垨鑰呬慨鏀规湰鎵嬪唽閮藉皢鎵挎媴娉曞緥璐ｄ换銆??
+本手册版权属于芯讯通，任何人未经我公司书面同意进行复制、引用或者修改本手册都将承担法律责任。
 
-鑺閫氭棤绾跨鎶(涓婃捣)鏈夐檺鍏徃  
-涓婃捣甯傞暱瀹佸尯涓磋櫣璺??289鍙??3鍙锋ゼ鑺閫氭婚儴澶фゼ  
-鐢佃瘽锛??86-21-31575100  
-閭锛歴imcom@simcom.com  
-瀹樼綉锛歸ww.simcom.com
+芯讯通无线科技(上海)有限公司  
+上海市长宁区临虹路289号3号楼芯讯通总部大楼  
+电话：86-21-31575100  
+邮箱：simcom@simcom.com  
+官网：www.simcom.com
 
-浜嗚В鏇村璧勬枡锛岃鐐瑰嚮浠ヤ笅閾炬帴锛??  
+了解更多资料，请点击以下链接：  
 http://cn.simcom.com/download/list-230-cn.html  
 
-鎶鏈敮鎸侊紝璇风偣鍑讳互涓嬮摼鎺ワ細  
-http://cn.simcom.com/ask/index-cn.html 鎴栧彂閫侀偖浠惰嚦support@simcom.com  
+技术支持，请点击以下链接：  
+http://cn.simcom.com/ask/index-cn.html 或发送邮件至support@simcom.com  
 
-鐗堟潈鎵鏈?? 漏 鑺閫氭棤绾跨鎶(涓婃捣)鏈夐檺鍏徃2022锛屼繚鐣欎竴鍒囨潈鍒┿??
+版权所有 © 芯讯通无线科技(上海)有限公司2022，保留一切权利。
 
-# 鐗堟湰鍘嗗彶
-|鐗堟湰|鏃ユ湡|浣滆厊澶囨敞|
+# 版本历史
+|版本|日期|作者|备注|
 |---|---|---|---|
-|V1.00|2025-7-23| |绗竴鐗坾
+|V1.00|2025-7-23| |第一版|
 
-# 鏂囨。浠嬬粛
-鏈枃妗ｄ粙缁嶄簡鍩轰簬VMCU妗嗘灦TTS鐨勬帴鍙ｅ畾涔夛紝浠ュ強TTS鐨勬帴鍙ｄ娇鐢ㄦ柟娉曞拰绀轰緥绋嬪簭锛屾寚瀵煎鎴峰浣曞湪mcu涓婁綅鏈鸿皟鐢ㄦā缁勶紙姣斿A7670SA锛夌殑TTS涓氬姟寮鍙慣TS鐨勭浉鍏充笟鍔°??
+# 文档介绍
+本文档介绍了基于VMCU框架TTS的接口定义，以及TTS的接口使用方法和示例程序，指导客户如何在mcu上位机调用模组（比如A7670SA）的TTS业务开发TTS的相关业务。
 
-# 鐩綍
-- [鐗堟潈澹版槑](#鐗堟潈澹版槑)
-- [鐗堟湰鍘嗗彶](#鐗堟湰鍘嗗彶)
-- [鏂囨。浠嬬粛](#鏂囨。浠嬬粛)
-- [鐩綍](#鐩綍)
-- [1 TTS 鎺ュ彛 API浠嬬粛](#1-tts-鎺ュ彛-api浠嬬粛)
-  - [1.1 TTS鍔熻兘鍒濆鍖杝am_tts_init](#11-tts鍔熻兘鍒濆鍖杝am_tts_init)
-  - [1.2 TTS鍘诲垵濮嬪寲 sam_tts_deinit](#12-tts鍘诲垵濮嬪寲-sam_tts_deinit)
-  - [1.3 鑾峰彇TTS宸ヤ綔鐘舵乻am_tts_get_status](#13-鑾峰彇tts宸ヤ綔鐘舵乻am_tts_get_status)
-  - [1.4 鍋滄TTS鎾斁sam_tts_stop_playing](#14-鍋滄tts鎾斁sam_tts_stop_playing)
-  - [1.5 鎾斁TTS璇煶sam_tts_play](#15-鎾斁tts璇煶sam_tts_play)
-  - [1.6 鎾斁TTS璇煶骞跺皢鏁版嵁淇濆瓨鍒皐av鏍煎紡鐨勬枃浠朵腑sam_tts_play_and_save_wav](#16-鎾斁tts璇煶骞跺皢鏁版嵁淇濆瓨鍒皐av鏍煎紡鐨勬枃浠朵腑sam_tts_play_and_save_wav)
-  - [1.7 鑾峰彇YOUNGTONE TTS搴撶浉鍏崇殑鍙傛暟sam_tts_get_YOUNGTONE_param](#17-鑾峰彇youngtone-tts搴撶浉鍏崇殑鍙傛暟sam_tts_get_youngtone_param)
-  - [1.8 璁剧疆YOUNGTONE TTS搴撶浉鍏崇殑鍙傛暟sam_tts_set_YOUNGTONE_param](#18-璁剧疆youngtone-tts搴撶浉鍏崇殑鍙傛暟sam_tts_set_youngtone_param)
-  - [1.9 璁剧疆IFLY TTS搴撶浉鍏崇殑鍙傛暟sam_tts_set_IFLY_param](#19-璁剧疆ifly-tts搴撶浉鍏崇殑鍙傛暟sam_tts_set_ifly_param)
-  - [1.10 鑾峰彇IFLY TTS搴撶浉鍏崇殑鍙傛暟sam_tts_get_IFLY_param](#110-鑾峰彇ifly-tts搴撶浉鍏崇殑鍙傛暟sam_tts_get_ifly_param)
-  - [1.11 鑾峰彇TTS鏄湰绔挱鏀捐繕鏄繙绔挱鏀緎am_tts_get_local_or_remote_status](#111-鑾峰彇tts鏄湰绔挱鏀捐繕鏄繙绔挱鏀緎am_tts_get_local_or_remote_status)
-  - [1.12 璁剧疆TTS鏄湰绔挱鏀捐繕鏄繙绔挱鏀緎am_tts_set_local_or_remote_status](#112-璁剧疆tts鏄湰绔挱鏀捐繕鏄繙绔挱鏀緎am_tts_set_local_or_remote_status)
-  - [1.13 鑾峰彇绯荤粺闊抽噺鏄惁鍙缃畇am_tts_get_sys_vol_setting_status](#113-鑾峰彇绯荤粺闊抽噺鏄惁鍙缃畇am_tts_get_sys_vol_setting_status)
-  - [1.14 璁剧疆绯荤粺闊抽噺鏄惁鍙缃畇am_tts_set_sys_vol_setting10](#114-璁剧疆绯荤粺闊抽噺鏄惁鍙缃畇am_tts_set_sys_vol_setting10)
-- [2 TTS鎺ュ彛浣跨敤绀轰緥浠嬬粛](#2-tts鎺ュ彛浣跨敤绀轰緥浠嬬粛)
-  - [2.1 Main鍑芥暟鍏ュ彛](#21-main鍑芥暟鍏ュ彛)
-  - [2.2 鎾斁UCS2鏁版嵁缂栫爜鏍煎紡鐨凾TS璇煶](#22-鎾斁ucs2鏁版嵁缂栫爜鏍煎紡鐨則ts璇煶)
-  - [2.3 鎾斁GBK鏁版嵁鏍煎紡鐨凾TS璇煶](#23-鎾斁gbk鏁版嵁鏍煎紡鐨則ts璇煶)
-  - [2.4 鎾斁ASCII缂栫爜鏍煎紡鐨勮闊冲苟淇濆瓨璇煶](#24-鎾斁ascii缂栫爜鏍煎紡鐨勮闊冲苟淇濆瓨璇煶)
-  - [2.5 璁剧疆YOUNGTONE TTS搴撳弬鏁癩(#25-璁剧疆youngtone-tts搴撳弬鏁??)
-  - [2.6 璁剧疆IFLY TTS搴撳弬鏁癩(#26-璁剧疆ifly-tts搴撳弬鏁??)
-- [3 TTS鍑芥暟璋冪敤娴佺▼鍥綸(#3-tts鍑芥暟璋冪敤娴佺▼鍥??)
+# 目录
+- [版权声明](#版权声明)
+- [版本历史](#版本历史)
+- [文档介绍](#文档介绍)
+- [目录](#目录)
+- [1 TTS 接口 API介绍](#1-tts-接口-api介绍)
+  - [1.1 TTS功能初始化sam_tts_init](#11-tts功能初始化sam_tts_init)
+  - [1.2 TTS去初始化 sam_tts_deinit](#12-tts去初始化-sam_tts_deinit)
+  - [1.3 获取TTS工作状态sam_tts_get_status](#13-获取tts工作状态sam_tts_get_status)
+  - [1.4 停止TTS播放sam_tts_stop_playing](#14-停止tts播放sam_tts_stop_playing)
+  - [1.5 播放TTS语音sam_tts_play](#15-播放tts语音sam_tts_play)
+  - [1.6 播放TTS语音并将数据保存到wav格式的文件中sam_tts_play_and_save_wav](#16-播放tts语音并将数据保存到wav格式的文件中sam_tts_play_and_save_wav)
+  - [1.7 获取YOUNGTONE TTS库相关的参数sam_tts_get_YOUNGTONE_param](#17-获取youngtone-tts库相关的参数sam_tts_get_youngtone_param)
+  - [1.8 设置YOUNGTONE TTS库相关的参数sam_tts_set_YOUNGTONE_param](#18-设置youngtone-tts库相关的参数sam_tts_set_youngtone_param)
+  - [1.9 设置IFLY TTS库相关的参数sam_tts_set_IFLY_param](#19-设置ifly-tts库相关的参数sam_tts_set_ifly_param)
+  - [1.10 获取IFLY TTS库相关的参数sam_tts_get_IFLY_param](#110-获取ifly-tts库相关的参数sam_tts_get_ifly_param)
+  - [1.11 获取TTS是本端播放还是远端播放sam_tts_get_local_or_remote_status](#111-获取tts是本端播放还是远端播放sam_tts_get_local_or_remote_status)
+  - [1.12 设置TTS是本端播放还是远端播放sam_tts_set_local_or_remote_status](#112-设置tts是本端播放还是远端播放sam_tts_set_local_or_remote_status)
+  - [1.13 获取系统音量是否可设置sam_tts_get_sys_vol_setting_status](#113-获取系统音量是否可设置sam_tts_get_sys_vol_setting_status)
+  - [1.14 设置系统音量是否可设置sam_tts_set_sys_vol_setting10](#114-设置系统音量是否可设置sam_tts_set_sys_vol_setting10)
+- [2 TTS接口使用示例介绍](#2-tts接口使用示例介绍)
+  - [2.1 Main函数入口](#21-main函数入口)
+  - [2.2 播放UCS2数据编码格式的TTS语音](#22-播放ucs2数据编码格式的tts语音)
+  - [2.3 播放GBK数据格式的TTS语音](#23-播放gbk数据格式的tts语音)
+  - [2.4 播放ASCII编码格式的语音并保存语音](#24-播放ascii编码格式的语音并保存语音)
+  - [2.5 设置YOUNGTONE TTS库参数](#25-设置youngtone-tts库参数)
+  - [2.6 设置IFLY TTS库参数](#26-设置ifly-tts库参数)
+- [3 TTS函数调用流程图](#3-tts函数调用流程图)
 
-## 1 TTS 鎺ュ彛 API浠嬬粛
-VMCU妗嗘灦鎻愪緵浜嗕竴缁凾TS鎺ュ彛锛岀敤浜庡鐞員TS鐩稿叧涓氬姟锛岄氳繃鐩稿叧鎺ュ彛璋冪敤鍙疄鐜版枃鏈浆鎹负闊抽杈撳嚭鐨勫姛鑳姐??
+## 1 TTS 接口 API介绍
+VMCU框架提供了一组TTS接口，用于处理TTS相关业务，通过相关接口调用可实现文本转换为音频输出的功能。
 
-TTS鎺ュ彛瀹氫箟鍦ㄥご鏂囦欢SamTTS.h涓紝浣跨敤鏃堕渶鍖呭惈璇ユ枃浠躲??
+TTS接口定义在头文件SamTTS.h中，使用时需包含该文件。
 
-### 1.1 TTS鍔熻兘鍒濆鍖杝am_tts_init
-|鎺ュ彛|int sam_tts_init(uint8 atcIndex,sam_tts_callback ttsCallback,sam_tts_urc_callback urcTTSCallback);|
+### 1.1 TTS功能初始化sam_tts_init
+|接口|int sam_tts_init(uint8 atcIndex,sam_tts_callback ttsCallback,sam_tts_urc_callback urcTTSCallback);|
 |---|---|
-|鍔熻兘|TTS妯″潡鍒濆鍖栧嚱鏁帮紝璋冪敤浠ヤ笅浠绘剰鍑芥暟鏃讹紝棣栧厛闇瑕佸皢TTS妯″潡娉ㄥ唽鍒扮郴缁熶腑銆傛鍑芥暟鍙渶瑕佽皟鐢ㄤ竴娆°備絾鏄皟鐢╲oid sam_tts_deinit(void)鍑芥暟鍚庯紝濡傛灉杩橀渶瑕佷娇鐢═TS妯″潡锛屽垯闇瑕佸啀娆¤皟鐢ㄦ鍑芥暟杩涜鍒濆鍖栥倈
-|鍙傛暟|atcIndex锛?? 閫夌敤鍝竴涓覆鍙ｉ氶亾锛屼竴鑸皢姝ゅ弬鏁颁紶鍏??0銆??<br/>ttsCallback锛?? 姝ゅ弬鏁颁紶鍏ヤ竴涓洖璋冨嚱鏁版寚閽堬紝灏辨槸鎵ц1.3鑷??1.14閲岄潰鐨勪换鎰忓嚱鏁版椂锛岃繑鍥??1.3鑷??1.14鍑芥暟鐨勬墽琛岀粨鏋溿??<br/>urcTTSCallback锛?? 姝ゅ弬鏁颁紶鍏ヤ竴涓洖璋冨嚱鏁扮殑鎸囬拡锛屽氨鏄墽琛??3鑷??14閲岄潰鐨勪换鎰忓嚱鏁版椂锛屽鏋??1.3鑷??1.14閲岄潰鐨勫嚱鏁版湁URC涓婃姤锛屼細閫氳繃姝ゅ洖璋冨嚱鏁拌緭鍑恒倈
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔熴??<br/>-1锛氳〃绀烘墽琛屽け璐ワ紝璇锋鏌ユ槸鍚︿紶鍏ユ纭殑鍙傛暟銆倈
-|澶囨敞|鏃爘
+|功能|TTS模块初始化函数，调用以下任意函数时，首先需要将TTS模块注册到系统中。此函数只需要调用一次。但是调用void sam_tts_deinit(void)函数后，如果还需要使用TTS模块，则需要再次调用此函数进行初始化。|
+|参数|atcIndex： 选用哪一个串口通道，一般将此参数传入0。<br/>ttsCallback： 此参数传入一个回调函数指针，就是执行1.3至1.14里面的任意函数时，返回1.3至1.14函数的执行结果。<br/>urcTTSCallback： 此参数传入一个回调函数的指针，就是执行3至14里面的任意函数时，如果1.3至1.14里面的函数有URC上报，会通过此回调函数输出。|
+|返回值|0：表示执行成功。<br/>-1：表示执行失败，请检查是否传入正确的参数。|
+|备注|无|
 
-### 1.2 TTS鍘诲垵濮嬪寲 sam_tts_deinit
-|鎺ュ彛|void sam_tts_deinit(void);|
+### 1.2 TTS去初始化 sam_tts_deinit
+|接口|void sam_tts_deinit(void);|
 |---|---|
-|鍔熻兘|鐢ㄤ簬娉ㄩ攢TTS妯″潡銆倈
-|鍙傛暟|鏃爘
-|杩斿洖鍊紎鏃爘
-|澶囨敞|鏃爘
+|功能|用于注销TTS模块。|
+|参数|无|
+|返回值|无|
+|备注|无|
 
-### 1.3 鑾峰彇TTS宸ヤ綔鐘舵乻am_tts_get_status
-|鎺ュ彛|int sam_tts_get_status(void);|
+### 1.3 获取TTS工作状态sam_tts_get_status
+|接口|int sam_tts_get_status(void);|
 |---|---|
-|鍔熻兘|姝ゅ嚱鏁扮敤浜庤幏鍙朤TS鐨勫伐浣滅姸鎬侊紝浼氶氳繃鍥炶皟鍑芥暟杩斿洖TTS褰撳墠鐨勭姸鎬佹槸姝ｅ湪鎾斁TTS锛岃繕鏄病鏈夋挱鏀綯TS銆倈
-|鍙傛暟|鏃爘
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔熴??<br/>-1锛氳〃绀烘湁鍏朵粬鐨凾TS浠诲姟姝ｅ湪鎵ц銆倈
-|澶囨敞|鏃爘
+|功能|此函数用于获取TTS的工作状态，会通过回调函数返回TTS当前的状态是正在播放TTS，还是没有播放TTS。|
+|参数|无|
+|返回值|0：表示执行成功。<br/>-1：表示有其他的TTS任务正在执行。|
+|备注|无|
 
-### 1.4 鍋滄TTS鎾斁sam_tts_stop_playing
-|鎺ュ彛|int sam_tts_stop_playing(void);|
+### 1.4 停止TTS播放sam_tts_stop_playing
+|接口|int sam_tts_stop_playing(void);|
 |---|---|
-|鍔熻兘|鍋滄TTS鐨勬挱鏀緗
-|鍙傛暟|鏃爘
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔??<br/>-1锛氳〃绀烘湁鍏朵粬鐨凾TS浠诲姟姝ｅ湪鎵ц|
-|澶囨敞|鏃爘
+|功能|停止TTS的播放|
+|参数|无|
+|返回值|0：表示执行成功<br/>-1：表示有其他的TTS任务正在执行|
+|备注|无|
 
-### 1.5 鎾斁TTS璇煶sam_tts_play
-|鎺ュ彛|int sam_tts_play(uint8 *pData,uint16 dataSize,TTS_PLAYING_DATA_FORMAT_E format);|
+### 1.5 播放TTS语音sam_tts_play
+|接口|int sam_tts_play(uint8 *pData,uint16 dataSize,TTS_PLAYING_DATA_FORMAT_E format);|
 |---|---|
-|鍔熻兘|鎾斁TTS璇煶銆倈
-|鍙傛暟|pData锛氬鏋滄暟鎹槸ASCII缂栫爜鏍煎紡锛屼腑鏂囨槸GBK缂栫爜鏍煎紡锛屼袱绉嶆牸寮忓崟鐙瓨鍦紝鎴栬呮贩鍚堝瓨鍦紝鏁版嵁鐨勬渶澶ч暱搴︽槸512瀛楄妭锛堝寘鎷袱涓紩鍙凤級锛屽鏋滄槸UCS2缂栫爜鏍煎紡锛屽寘鎷紩鍙峰湪鍐咃紝鏈澶ч暱搴︽槸510瀛楄妭銆??<br/>dataSize锛氫紶鍏ョ殑pData鏁版嵁鐨勯暱搴︺??<br/>format锛歱Data鎵鎸囩殑鏁版嵁鐨勭紪鐮佹牸寮忋倈
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔熴??<br/>-1锛氳妫鏌ヤ紶鍏ョ殑鍙傛暟鏄惁姝ｇ‘銆倈
-|澶囨敞|鏃爘
+|功能|播放TTS语音。|
+|参数|pData：如果数据是ASCII编码格式，中文是GBK编码格式，两种格式单独存在，或者混合存在，数据的最大长度是512字节（包括两个引号），如果是UCS2编码格式，包括引号在内，最大长度是510字节。<br/>dataSize：传入的pData数据的长度。<br/>format：pData所指的数据的编码格式。|
+|返回值|0：表示执行成功。<br/>-1：请检查传入的参数是否正确。|
+|备注|无|
 
-### 1.6 鎾斁TTS璇煶骞跺皢鏁版嵁淇濆瓨鍒皐av鏍煎紡鐨勬枃浠朵腑sam_tts_play_and_save_wav
-|鎺ュ彛|int sam_tts_play_and_save_wav(uint8 *pData,uint16 dataSize,char *fileName,TTS_PLAYING_DATA_FORMAT_E format);|
+### 1.6 播放TTS语音并将数据保存到wav格式的文件中sam_tts_play_and_save_wav
+|接口|int sam_tts_play_and_save_wav(uint8 *pData,uint16 dataSize,char *fileName,TTS_PLAYING_DATA_FORMAT_E format);|
 |---|---|
-|鍔熻兘|鎾斁TTS璇煶骞跺皢鏁版嵁淇濆瓨鍒皐av鏍煎紡鐨勬枃浠朵腑銆倈
-|鍙傛暟|pData锛氬鏋滄暟鎹槸ASCII缂栫爜鏍煎紡锛屼腑鏂囨槸GBK缂栫爜鏍煎紡锛屼袱绉嶆牸寮忓崟鐙瓨鍦紝鎴栬呮贩鍚堝瓨鍦紝鏁版嵁鐨勬渶澶ч暱搴︽槸50瀛楄妭銆俆OUNGTONE TTS锛氫腑鏂囧闊冲瓧缂栫爜鏍煎紡锛屽闊冲瓧<pinyin=鍙戦煶璇婚煶+澹拌皟>锛汭FLY TTS锛氫腑鏂囧闊冲瓧缂栫爜鏍煎紡锛屽闊冲瓧[=鍙戦煶璇婚煶+澹拌皟]銆傚鏋滄暟鎹槸UCS2缂栫爜鏁版嵁锛屾暟鎹殑鏈澶ч暱搴︽槸50瀛楄妭銆??<br/>dataSize锛氫紶鍏ョ殑pData鏁版嵁鐨勯暱搴︺??<br/>fileName锛氳緭鍏ヨ矾寰勫拰鏂囦欢鍚嶏紝濡傛灉涓嶆寚瀹氳矾寰勶紝榛樿淇濆瓨鍦–:鐩橈紝鏈澶ф枃浠跺悕闀垮害涓??60瀛楄妭锛屽綋鍓嶄粎浠呮敮鎸??.wav鏂囦欢鍚嶅悗缂銆??<br/>format锛歱Data鎵鎸囩殑鏁版嵁鐨勭紪鐮佹牸寮忋倈
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔熴??<br/>-1锛氳妫鏌ヤ紶鍏ョ殑鍙傛暟鏄惁姝ｇ‘銆倈
-|澶囨敞|鏃爘
+|功能|播放TTS语音并将数据保存到wav格式的文件中。|
+|参数|pData：如果数据是ASCII编码格式，中文是GBK编码格式，两种格式单独存在，或者混合存在，数据的最大长度是50字节。TOUNGTONE TTS：中文多音字编码格式，多音字<pinyin=发音读音+声调>；IFLY TTS：中文多音字编码格式，多音字[=发音读音+声调]。如果数据是UCS2编码数据，数据的最大长度是50字节。<br/>dataSize：传入的pData数据的长度。<br/>fileName：输入路径和文件名，如果不指定路径，默认保存在C:盘，最大文件名长度为60字节，当前仅仅支持.wav文件名后缀。<br/>format：pData所指的数据的编码格式。|
+|返回值|0：表示执行成功。<br/>-1：请检查传入的参数是否正确。|
+|备注|无|
 
-### 1.7 鑾峰彇YOUNGTONE TTS搴撶浉鍏崇殑鍙傛暟sam_tts_get_YOUNGTONE_param
-|鎺ュ彛|int sam_tts_get_YOUNGTONE_param(void);|
+### 1.7 获取YOUNGTONE TTS库相关的参数sam_tts_get_YOUNGTONE_param
+|接口|int sam_tts_get_YOUNGTONE_param(void);|
 |---|---|
-|鍔熻兘|鑾峰彇YOUNGTONE TTS搴撶浉鍏崇殑鍙傛暟锛屾鍑芥暟浼氶氳繃sam_tts_init璁剧疆鐨勫洖璋冨嚱鏁拌繑鍥炲弬鏁板笺倈
-|鍙傛暟|鏃爘
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔??<br/>-1锛氳〃绀烘湁鍏朵粬鐨凾TS浠诲姟姝ｅ湪鎵ц|
-|澶囨敞|鏃爘
+|功能|获取YOUNGTONE TTS库相关的参数，此函数会通过sam_tts_init设置的回调函数返回参数值。|
+|参数|无|
+|返回值|0：表示执行成功<br/>-1：表示有其他的TTS任务正在执行|
+|备注|无|
 
-### 1.8 璁剧疆YOUNGTONE TTS搴撶浉鍏崇殑鍙傛暟sam_tts_set_YOUNGTONE_param
-|鎺ュ彛|int sam_tts_set_YOUNGTONE_param(TTS_param_T *pParam);|
+### 1.8 设置YOUNGTONE TTS库相关的参数sam_tts_set_YOUNGTONE_param
+|接口|int sam_tts_set_YOUNGTONE_param(TTS_param_T *pParam);|
 |---|---|
-|鍔熻兘|璁剧疆YOUNGTONE TTS搴撶浉鍏崇殑鍙傛暟銆倈
-|鍙傛暟|pParam锛氭槸涓涓猅TS_param_T缁撴瀯浣撴寚閽堬紝缁撴瀯浣撻噷闈㈡槸涓涓暟缁勶細<br/> *  index 0:TTS lib volume,range (0,1,2),default:1.<br/> *  index 1:system volume,range (0,1,2,3),default:3.<br/> *  index 2:digitmode,range (0,1,2),default:0.<br/> *  index 3:pitch,range (0,1,2),default:1.<br/> *  index 4:speed,rough speed regulation,range (0,1,2),default:1;precision speed regulation,range [10...30].<br/>     *  index 5:digitreading,range (0,1),default:0.|
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔??<br/>-1锛氳〃绀烘湁鍏朵粬鐨凾TS浠诲姟姝ｅ湪鎵ц|
-|澶囨敞|鏃爘
+|功能|设置YOUNGTONE TTS库相关的参数。|
+|参数|pParam：是一个TTS_param_T结构体指针，结构体里面是一个数组：<br/> *  index 0:TTS lib volume,range (0,1,2),default:1.<br/> *  index 1:system volume,range (0,1,2,3),default:3.<br/> *  index 2:digitmode,range (0,1,2),default:0.<br/> *  index 3:pitch,range (0,1,2),default:1.<br/> *  index 4:speed,rough speed regulation,range (0,1,2),default:1;precision speed regulation,range [10...30].<br/>     *  index 5:digitreading,range (0,1),default:0.|
+|返回值|0：表示执行成功<br/>-1：表示有其他的TTS任务正在执行|
+|备注|无|
 
-### 1.9 璁剧疆IFLY TTS搴撶浉鍏崇殑鍙傛暟sam_tts_set_IFLY_param
-|鎺ュ彛|int sam_tts_set_IFLY_param(TTS_param_T *pParam);|
+### 1.9 设置IFLY TTS库相关的参数sam_tts_set_IFLY_param
+|接口|int sam_tts_set_IFLY_param(TTS_param_T *pParam);|
 |---|---|
-|鍔熻兘|璁剧疆IFLY TTS搴撶浉鍏崇殑鍙傛暟銆倈
-|鍙傛暟|pParam鏄竴涓猅TS_param_T缁撴瀯浣撴寚閽堬紝缁撴瀯浣撻噷闈㈡槸涓涓暟缁勶細<br/> *  index 0:TTS lib volume,range (0,1,2),default:2.<br/> *  index 1:system volume,range (0...7),default:4.<br/> *  index 2:digitmode,range (0,1,2),default:0.<br/> *  index 3:pitch,range (0,1,2),default:1.<br/> *  index 4:speed,rough speed regulation,range (0,1,2),default:1;precision speed regulation,range [10...30].<br/>     *  index 5:ttslib,range (0,1),default:0.|
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔??<br/>-1锛氳〃绀烘湁鍏朵粬鐨凾TS浠诲姟姝ｅ湪鎵ц|
-|澶囨敞|鏃爘
+|功能|设置IFLY TTS库相关的参数。|
+|参数|pParam是一个TTS_param_T结构体指针，结构体里面是一个数组：<br/> *  index 0:TTS lib volume,range (0,1,2),default:2.<br/> *  index 1:system volume,range (0...7),default:4.<br/> *  index 2:digitmode,range (0,1,2),default:0.<br/> *  index 3:pitch,range (0,1,2),default:1.<br/> *  index 4:speed,rough speed regulation,range (0,1,2),default:1;precision speed regulation,range [10...30].<br/>     *  index 5:ttslib,range (0,1),default:0.|
+|返回值|0：表示执行成功<br/>-1：表示有其他的TTS任务正在执行|
+|备注|无|
 
-### 1.10 鑾峰彇IFLY TTS搴撶浉鍏崇殑鍙傛暟sam_tts_get_IFLY_param
-|鎺ュ彛|int sam_tts_get_IFLY_param(void);|
+### 1.10 获取IFLY TTS库相关的参数sam_tts_get_IFLY_param
+|接口|int sam_tts_get_IFLY_param(void);|
 |---|---|
-|鍔熻兘|鑾峰彇IFLY TTS搴撶浉鍏崇殑鍙傛暟锛屾鍑芥暟浼氶氳繃sam_tts_init璁剧疆鐨勫洖璋冨嚱鏁拌繑鍥炲弬鏁板笺倈
-|鍙傛暟|鏃爘
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔??<br/>-1锛氳〃绀烘湁鍏朵粬鐨凾TS浠诲姟姝ｅ湪鎵ц|
-|澶囨敞|鏃爘
+|功能|获取IFLY TTS库相关的参数，此函数会通过sam_tts_init设置的回调函数返回参数值。|
+|参数|无|
+|返回值|0：表示执行成功<br/>-1：表示有其他的TTS任务正在执行|
+|备注|无|
 
-### 1.11 鑾峰彇TTS鏄湰绔挱鏀捐繕鏄繙绔挱鏀緎am_tts_get_local_or_remote_status
-|鎺ュ彛|int sam_tts_get_local_or_remote_status(void);|
+### 1.11 获取TTS是本端播放还是远端播放sam_tts_get_local_or_remote_status
+|接口|int sam_tts_get_local_or_remote_status(void);|
 |---|---|
-|鍔熻兘|鑾峰彇TTS鏄湰绔挱鏀捐繕鏄繙绔挱鏀撅紝鑾峰彇鐨勭姸鎬佸奸氳繃sam_tts_init璁剧疆鐨勫洖璋冨嚱鏁拌繑鍥炪倈
-|鍙傛暟|鏃爘
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔??<br/>-1锛氳〃绀烘湁鍏朵粬鐨凾TS浠诲姟姝ｅ湪鎵ц|
-|澶囨敞|鏃爘
+|功能|获取TTS是本端播放还是远端播放，获取的状态值通过sam_tts_init设置的回调函数返回。|
+|参数|无|
+|返回值|0：表示执行成功<br/>-1：表示有其他的TTS任务正在执行|
+|备注|无|
 
-### 1.12 璁剧疆TTS鏄湰绔挱鏀捐繕鏄繙绔挱鏀緎am_tts_set_local_or_remote_status
-|鎺ュ彛|int sam_tts_set_local_or_remote_status(uint8 localOrRemote);|
+### 1.12 设置TTS是本端播放还是远端播放sam_tts_set_local_or_remote_status
+|接口|int sam_tts_set_local_or_remote_status(uint8 localOrRemote);|
 |---|---|
-|鍔熻兘|璁剧疆TTS鏄湰绔挱鏀捐繕鏄繙绔挱鏀俱倈
-|鍙傛暟|localOrRemote锛??0:Local Path,1:Remote Path銆倈
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔??<br/>-1锛氳〃绀烘湁鍏朵粬鐨凾TS浠诲姟姝ｅ湪鎵ц|
-|澶囨敞|鏃爘
+|功能|设置TTS是本端播放还是远端播放。|
+|参数|localOrRemote：0:Local Path,1:Remote Path。|
+|返回值|0：表示执行成功<br/>-1：表示有其他的TTS任务正在执行|
+|备注|无|
 
-### 1.13 鑾峰彇绯荤粺闊抽噺鏄惁鍙缃畇am_tts_get_sys_vol_setting_status
-|鎺ュ彛|int sam_tts_get_sys_vol_setting_status(void);|
+### 1.13 获取系统音量是否可设置sam_tts_get_sys_vol_setting_status
+|接口|int sam_tts_get_sys_vol_setting_status(void);|
 |---|---|
-|鍔熻兘|鑾峰彇绯荤粺闊抽噺鏄惁鍙缃紝鑾峰彇鐨勭姸鎬佸奸氳繃sam_tts_init璁剧疆鐨勫洖璋冨嚱鏁拌繑鍥炪倈
-|鍙傛暟|鏃爘
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔??<br/>-1锛氳〃绀烘湁鍏朵粬鐨凾TS浠诲姟姝ｅ湪鎵ц|
-|澶囨敞|鏃爘
+|功能|获取系统音量是否可设置，获取的状态值通过sam_tts_init设置的回调函数返回。|
+|参数|无|
+|返回值|0：表示执行成功<br/>-1：表示有其他的TTS任务正在执行|
+|备注|无|
 
-### 1.14 璁剧疆绯荤粺闊抽噺鏄惁鍙缃畇am_tts_set_sys_vol_setting10
-|鎺ュ彛|int sam_tts_set_sys_vol_setting(uint8 sysVolSetting);|
+### 1.14 设置系统音量是否可设置sam_tts_set_sys_vol_setting10
+|接口|int sam_tts_set_sys_vol_setting(uint8 sysVolSetting);|
 |---|---|
-|鍔熻兘|璁剧疆绯荤粺闊抽噺鏄惁鍙缃倈
-|鍙傛暟|sysVolSetting锛??0:volume setting is valid,1:volume setting is invalid.|
-|杩斿洖鍊紎0锛氳〃绀烘墽琛屾垚鍔??<br/>-1锛氳〃绀烘湁鍏朵粬鐨凾TS浠诲姟姝ｅ湪鎵ц|
-|澶囨敞|鏃爘
+|功能|设置系统音量是否可设置。|
+|参数|sysVolSetting：0:volume setting is valid,1:volume setting is invalid.|
+|返回值|0：表示执行成功<br/>-1：表示有其他的TTS任务正在执行|
+|备注|无|
 
-## 2 TTS鎺ュ彛浣跨敤绀轰緥浠嬬粛
-鏈珷鑺備富瑕佷粙缁嶅簲鐢ㄧ▼搴忓浣曡皟鐢═TS鐨勬帴鍙ｅ疄鐜癟TS璇煶鎾斁銆??
+## 2 TTS接口使用示例介绍
+本章节主要介绍应用程序如何调用TTS的接口实现TTS语音播放。
 
-### 2.1 Main鍑芥暟鍏ュ彛
-TTS鐨勫垵濮嬪寲鍜屽叾浠栨ā鍧楃殑鍒濆鍖栦竴鏍凤紝閮藉湪while寰幆涔嬪墠TesterInit( )閲岄潰璋冪敤sam_tts_init()鍑芥暟銆??
+### 2.1 Main函数入口
+TTS的初始化和其他模块的初始化一样，都在while循环之前TesterInit( )里面调用sam_tts_init()函数。
 
-鍒濆鍖栧畬鎴愬悗锛屽鏋滃簲鐢ㄦ兂鎵цTTS鐨勭浉鍏充笟鍔★紝姣斿鎾斁TTS璇煶锛屽彲浠ュ湪While寰幆浣撳唴閮ㄦ墽琛岋紝寮鍙戣呭彲鏍规嵁鑷繁鐨勯昏緫璁捐锛屽悗缁珷鑺備細鍋氳繘涓姝ヤ粙缁嶃??
+初始化完成后，如果应用想执行TTS的相关业务，比如播放TTS语音，可以在While循环体内部执行，开发者可根据自己的逻辑设计，后续章节会做进一步介绍。
 
-### 2.2 鎾斁UCS2鏁版嵁缂栫爜鏍煎紡鐨凾TS璇煶
+### 2.2 播放UCS2数据编码格式的TTS语音
 ```c
 uint8 *pData = "\"6B228FCE4F7F75288BED97F3540862107CFB7EDF\"";
 sam_tts_play(pData,strlen(pData),TTS_PLAYING_UCS2_FORMAT);
 ```
 
-### 2.3 鎾斁GBK鏁版嵁鏍煎紡鐨凾TS璇煶
+### 2.3 播放GBK数据格式的TTS语音
 ```c
-uint8 *pData = "\"鍘绘湞<pinyin=chao2>闃筹紝鐪嬫湞<pinyin=zhao1>闃砛"";
+uint8 *pData = "\"去朝<pinyin=chao2>阳，看朝<pinyin=zhao1>阳\"";
 sam_tts_play(pData,strlen(pData),TTS_PLAYING_ASCII_AND_GBK_OR_ONLY_GBK_FORMAT);
 ```
 
-### 2.4 鎾斁ASCII缂栫爜鏍煎紡鐨勮闊冲苟淇濆瓨璇煶
+### 2.4 播放ASCII编码格式的语音并保存语音
 ```c
 uint8 *pData = "\"hello world\"";
 char *fileName = "\"C:/12.wav\"";
 sam_tts_play_and_save_wav(pData,strlen(pData),fileName,TTS_PLAYING_ONLY_ASCII_FORMAT);
 ```
 
-### 2.5 璁剧疆YOUNGTONE TTS搴撳弬鏁??
+### 2.5 设置YOUNGTONE TTS库参数
 ```c
 TTS_param_T param;
 param.params[TTS_VOL] = 2;
@@ -227,7 +227,7 @@ param.params[TTS_DIGIT_READING_FOR_YOUNGTONE_OR_TTSLIB_FOR_IFLY] = 1;
 sam_tts_set_YOUNGTONE_param(&param);
 ```
 
-### 2.6 璁剧疆IFLY TTS搴撳弬鏁??
+### 2.6 设置IFLY TTS库参数
 ```c
 TTS_param_T param;
 param.params[TTS_VOL] = 2;
@@ -239,8 +239,8 @@ param.params[TTS_DIGIT_READING_FOR_YOUNGTONE_OR_TTSLIB_FOR_IFLY] = 1;
 sam_tts_set_IFLY_param(&mTTSTag,&param);
 ```
 
-## 3 TTS鍑芥暟璋冪敤娴佺▼鍥??
+## 3 TTS函数调用流程图
 
 <img src="tts.png" style="background-color:rgb(251, 252, 252); padding: 5px;" width="860" height="516">
 
-[<- 杩斿洖涓荤洰褰昡(../README_cn.md)
+[<- 返回主目录](../README_cn.md)
