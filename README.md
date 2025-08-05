@@ -1,7 +1,7 @@
 <img src="_htmresc/simcom_logo.png" style="background-color:rgb(251, 252, 252); padding: 5px;" width="100">
 
 - [English](README.md)  
-- [¼òÌåÖÐÎÄ](README_cn.md)
+- [Chinese](README_cn.md)
 
 <h1 style="text-align:center">SAM_ATCDRV</h1>
 
