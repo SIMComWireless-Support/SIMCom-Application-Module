@@ -1,0 +1,30 @@
+[
+    {
+        "caretX": 24,
+        "caretY": 9,
+        "filename": "D:/STM32/SAM/project/STM_SAM/SAM_ATCDRV/include.h",
+        "focused": false,
+        "isOpen": false,
+        "left": 0,
+        "top": 0
+    },
+    {
+        "caretX": 21,
+        "caretY": 9,
+        "filename": "D:/STM32/SAM/project/STM_SAM/examples/win32/SAM/main.c",
+        "focused": true,
+        "isOpen": true,
+        "left": 0,
+        "order": 0,
+        "top": 0
+    },
+    {
+        "caretX": 66,
+        "caretY": 142,
+        "filename": "D:/STM32/SAM/project/STM_SAM/SAM_ATCDRV/SamSmsSrv.c",
+        "focused": false,
+        "isOpen": false,
+        "left": 0,
+        "top": 2700
+    }
+]
