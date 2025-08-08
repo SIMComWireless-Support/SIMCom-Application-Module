@@ -95,7 +95,7 @@ static int get_current_time(char *buffer, uint16_t size) {
     return snprintf(buffer + len, size - len, ".%03d", milliseconds);
 #else     
     unsigned int t;
-    t = (GetSysTickCnt()&0x7FFFF);
+    t = GetSysTickCnt();
     
     return snprintf(buffer, size, "%09u", t);
 #endif
@@ -142,12 +142,12 @@ static void vprintf_loc(sam_dbg_level_e level, sam_module_id_e module, const cha
     }
 	
 #if 0    
-    /* 获取当前时间 */
+    /* 锟斤拷取锟斤拷前时锟斤拷 */
     if (get_current_time(time_str, sizeof(time_str)) <= 0) {
         strcpy(time_str, "0000-00-00 00:00:00");
     }
 #else	
-    /* 获取当前时间（毫秒级） */
+    /* 锟斤拷取锟斤拷前时锟戒（锟斤拷锟诫级锟斤拷 */
     if (get_current_time(time_str, sizeof(time_str)) <= 0) {
         strcpy(time_str, "0000-00-00 00:00:00.000");
     }
@@ -194,12 +194,12 @@ static void vprintf_dbg(sam_dbg_level_e level, const char *fmt, va_list ap) {
     char time_str[32];
 
 #if 0    
-    /* 获取当前时间 */
+    /* 锟斤拷取锟斤拷前时锟斤拷 */
     if (get_current_time(time_str, sizeof(time_str)) <= 0) {
         strcpy(time_str, "0000-00-00 00:00:00");
     }
 #else	
-    /* 获取当前时间（毫秒级） */
+    /* 锟斤拷取锟斤拷前时锟戒（锟斤拷锟诫级锟斤拷 */
     if (get_current_time(time_str, sizeof(time_str)) <= 0) {
         strcpy(time_str, "0000-00-00 00:00:00.000");
     }
@@ -354,7 +354,7 @@ void DebugTrace(const char *format, ...)
 
 	//if (SAM_DBG_LEVEL_TRACE > global_dbg_level ) return; 
 
-	t = (GetSysTickCnt()&0x7FFFF);
+	t = GetSysTickCnt();
 	snprintf(tbuf, 16, "%09u:", t);
 	
 	va_list ap;
